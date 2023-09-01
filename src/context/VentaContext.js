@@ -12,7 +12,7 @@ export const VentaProvider = ({ children }) => {
 
   const eliminarProductoCarrito = (idProducto) => {
     /* const oldCarrito = [...carrito];
-    const indexElement = oldCarrito.findIndex(
+    const Element = oldCarrito.findIndex(
       (producto) => producto._id === idProducto
     );
     oldCarrito.splice(indexElement, 1);
